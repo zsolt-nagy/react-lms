@@ -1,0 +1,7 @@
+.course-item {
+    cursor: pointer;
+}
+
+.course-item:hover {
+    color: goldenrod;
+}

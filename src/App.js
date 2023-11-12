@@ -5,11 +5,13 @@ import CourseList from "./Components/CourseList/CourseList";
 function App() {
     const [courses, setCourses] = useState([
         {
+            id: 1,
             author: "John",
             title: "JavaScript Fundamentals",
             modules: [],
         },
         {
+            id: 2,
             author: "Jane",
             title: "React Fundamentals",
             modules: [],
