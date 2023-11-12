@@ -1,15 +1,11 @@
-import "./App.css";
+import PageHeader from "./Components/PageHeader/PageHeader";
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <h2>React LMS</h2>
-                <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                    Learn React
-                </a>
-            </header>
-        </div>
+        <>
+            <PageHeader />
+            <PageHeader />
+        </>
     );
 }
 
