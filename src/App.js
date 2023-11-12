@@ -8,7 +8,28 @@ function App() {
             id: 1,
             author: "John",
             title: "JavaScript Fundamentals",
-            modules: [],
+            modules: [
+                {
+                    id: 1,
+                    title: "Datatypes",
+                    lessons: [],
+                },
+                {
+                    id: 2,
+                    title: "Variables",
+                    lessons: [],
+                },
+                {
+                    id: 3,
+                    title: "If-else",
+                    lessons: [],
+                },
+                {
+                    id: 4,
+                    title: "Loops",
+                    lessons: [],
+                },
+            ],
         },
         {
             id: 2,
