@@ -12,7 +12,23 @@ function App() {
                 {
                     id: 1,
                     title: "Datatypes",
-                    lessons: [],
+                    lessons: [
+                        {
+                            id: 1,
+                            title: "Egyszerű adattípusok",
+                            contentList: [],
+                        },
+                        {
+                            id: 2,
+                            title: "Objektumok és tömbök",
+                            contentList: [],
+                        },
+                        {
+                            id: 3,
+                            title: "Függvények",
+                            contentList: [],
+                        },
+                    ],
                 },
                 {
                     id: 2,

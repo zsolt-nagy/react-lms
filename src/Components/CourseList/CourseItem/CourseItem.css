@@ -1,5 +1,7 @@
 .course-item {
     cursor: pointer;
+    user-select: none;
+    list-style-type: none;
 }
 
 .course-item:hover {
