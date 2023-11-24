@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PageHeader from "./Components/PageHeader/PageHeader";
 import CourseList from "./Components/CourseList/CourseList";
+import { CONTENT_TYPES } from "./Constants/ContentTypes";
 
 function App() {
     const [courses, setCourses] = useState([
@@ -19,19 +20,19 @@ function App() {
                             contentList: [
                                 {
                                     id: 1,
-                                    type: "TextSection",
+                                    type: CONTENT_TYPES.TEXT_SECTION,
                                     title: "Boolean típus",
                                     text: "A bookean típusnak két lehetséges értéke van: true vagy false.",
                                 },
                                 {
                                     id: 2,
-                                    type: "Video",
+                                    type: CONTENT_TYPES.VIDEO,
                                     title: "JavaScript adattípusok",
                                     url: "https://www.youtube.com/embed/3lMvVCvYeyY",
                                 },
                                 {
                                     id: 3,
-                                    type: "CodeExample",
+                                    type: CONTENT_TYPES.CODE_EXAMPLE,
                                     title: "Függvények",
                                     description: "Így hívhatsz meg egy függvényt",
                                     codeText: `
