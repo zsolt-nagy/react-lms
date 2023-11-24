@@ -16,7 +16,31 @@ function App() {
                         {
                             id: 1,
                             title: "Egyszerű adattípusok",
-                            contentList: [],
+                            contentList: [
+                                {
+                                    id: 1,
+                                    type: "TextSection",
+                                    title: "Boolean típus",
+                                    text: "A bookean típusnak két lehetséges értéke van: true vagy false.",
+                                },
+                                {
+                                    id: 2,
+                                    type: "Video",
+                                    title: "JavaScript adattípusok",
+                                    url: "https://www.youtube.com/embed/3lMvVCvYeyY",
+                                },
+                                {
+                                    id: 3,
+                                    type: "CodeExample",
+                                    title: "Függvények",
+                                    description: "Így hívhatsz meg egy függvényt",
+                                    codeText: `
+function f() {}
+f();
+                                    `,
+                                    language: "javascript",
+                                },
+                            ],
                         },
                         {
                             id: 2,

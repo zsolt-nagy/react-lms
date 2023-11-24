@@ -30,6 +30,32 @@ Out of scope
 
 `Content` = `TextSection` | `Video` | `CodeExample` | `Test` 
 
+```
+{
+    id: 1,
+    type: "TextSection",
+    title: "Text Section Cím",
+    text: "..."
+}
+
+{
+    id: 2,
+    type: "Video",
+    title: "Video Cím",
+    url: "Video URL",
+}
+
+
+{
+    id: 3,
+    type: "CodeExample",
+    title: "Kód példa címe",
+    description: "Kód példa leírása",
+    codeText: "function f() {}",
+    language: "javascript",
+}
+```
+
 - individual content types are yet to be specified.
 
 
